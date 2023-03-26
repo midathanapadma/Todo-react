@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TodoList</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="todo.css">
+        <script src="todo.js" defer></script>
+    </head>
+    <body>
+        <div id="myDiv" class="header">
+            <h2 style="margin: 5px;">ToDoList</h2>
+            <input type="text" id="myInput" placeholder="enter message....">
+            <span onClick="newElement()" class="addBtn">Add</span>
+        </div>
+        <ul id="myUL">
+            <li>Angular</li>
+            <li class="checked">Reactjs</li>
+            <li>Vuejs</li>
+            <li>Nodejs</li>
+            <li>Mongodb</li>
+        </ul>
+    </body>
+</html>
